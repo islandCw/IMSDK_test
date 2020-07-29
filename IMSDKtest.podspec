@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios
   s.platform     = :ios, "8.0"
-  s.source       = { :git => "https://github.com/islandCw/IMSDK_test.git", :tag => "s.version" }
+  s.source       = { :git => "https://github.com/islandCw/IMSDK_test.git", :tag => "#{s.version}" }
   s.requires_arc=true
 
   s.subspec 'include' do |ss|
